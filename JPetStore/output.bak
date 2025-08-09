@@ -1,0 +1,245 @@
+Virtual User Script started at: 8/9/2025 8:26:16 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\HP\OneDrive\Desktop\PT_Practice\LoadRunner\JPetStore\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "TR1_JPetStore_Launch" started.
+Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(12): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(15): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(18): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(21): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(24): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(24): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(27): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(27): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(30): web_custom_request("{P_HostName}") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(30): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.c(30): web_custom_request("{P_HostName}") highest severity level was "warning", 5712 body bytes, 691 header bytes  	[MsgId: MMSG-26388]
+Action.c(41): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(41): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(41): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(44): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(44): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(47): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(47): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(50): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(50): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(53): web_custom_request("speculation") started  	[MsgId: MMSG-26355]
+Action.c(53): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(53): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(53): web_custom_request("speculation") was successful, 128 body bytes, 614 header bytes  	[MsgId: MMSG-26386]
+Action.c(63): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(63): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(63): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(66): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(66): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(69): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(69): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(72): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(72): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(77): web_custom_request("jquery-3.7.1.min.js") started  	[MsgId: MMSG-26355]
+Action.c(77): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(77): web_custom_request("jquery-3.7.1.min.js") was successful, 30336 body bytes, 633 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): Notify: Transaction "TR1_JPetStore_Launch" ended with a "Pass" status (Duration: 1.1907 Wasted Time: 0.1441).
+Action.c(94): Notify: Transaction "TR2_JPetStore_ClickSignUp" started.
+Action.c(96): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(96): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(99): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(99): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(102): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(102): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(105): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(105): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(108): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(108): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(111): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(111): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(114): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(114): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(117): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(117): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(120): web_custom_request("newAccountForm") started  	[MsgId: MMSG-26355]
+Action.c(120): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(120): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(120): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.c(120): web_custom_request("newAccountForm") highest severity level was "warning", 5816 body bytes, 600 header bytes  	[MsgId: MMSG-26388]
+Action.c(130): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(130): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(130): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(133): web_custom_request("speculation_2") started  	[MsgId: MMSG-26355]
+Action.c(133): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(133): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(133): web_custom_request("speculation_2") was successful, 128 body bytes, 602 header bytes  	[MsgId: MMSG-26386]
+Action.c(145): Notify: Transaction "TR2_JPetStore_ClickSignUp" ended with a "Pass" status (Duration: 0.4226 Wasted Time: 0.0201).
+Action.c(149): Notify: Transaction "TR3_JPetStore_SaveAccountInformation" started.
+Action.c(152): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(152): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(152): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(155): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(155): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(158): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(158): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(161): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(161): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(164): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(164): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(167): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(167): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(170): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(170): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(173): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(173): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(176): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(176): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(178): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(178): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(194): web_custom_request("newAccount") started  	[MsgId: MMSG-26355]
+Action.c(194): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(194): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(194): Notify: Parameter Substitution: parameter "P_UsrName" =  "testuserpt"
+Action.c(194): Notify: Parameter Substitution: parameter "P_Password" =  "testuserpt123"
+Action.c(194): Notify: Parameter Substitution: parameter "P_Password" =  "testuserpt123"
+Action.c(194): Notify: Parameter Substitution: parameter "P_FirstName" =  "test2"
+Action.c(194): Notify: Parameter Substitution: parameter "P_LastName" =  "tester1"
+Action.c(194): Notify: Parameter Substitution: parameter "P_Email" =  "test1tester%40gmail.com"
+Action.c(194): Notify: Parameter Substitution: parameter "P_PhoneNumber" =  "1234567890"
+Action.c(194): Notify: Parameter Substitution: parameter "P_AddressLine1" =  "2-250"
+Action.c(194): Notify: Parameter Substitution: parameter "P_AddressLine2" =  "nellore"
+Action.c(194): Notify: Parameter Substitution: parameter "P_City" =  "Chennai"
+Action.c(194): Notify: Parameter Substitution: parameter "P_State" =  "Tamil+Nadu"
+Action.c(194): Notify: Parameter Substitution: parameter "P_ZipCode" =  "524137"
+Action.c(194): Notify: Parameter Substitution: parameter "P_Country" =  "India"
+Action.c(194): web_custom_request("newAccount") was successful, 5466 body bytes, 561 header bytes  	[MsgId: MMSG-26386]
+Action.c(205): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(205): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(208): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(208): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(213): web_custom_request("FollowRedirect") started  	[MsgId: MMSG-26355]
+Action.c(213): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(213): Found resource "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/foundation@6.9.0/css/aspectran.css" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://jpetstore.aspectran.com/css/jpetstore.css?20250227" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/js/modernizr-custom.js" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Resource "https://code.jquery.com/jquery-3.7.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(213): Found resource "https://unpkg.com/htmx.org@2.0.4" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-site-logo.png" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://jpetstore.aspectran.com/images/logo-topbar.gif" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://jpetstore.aspectran.com/images/cart.gif" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-logo-grey-x100.png" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Found resource "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/foundation@6.9.0/js/foundation.min.js" in HTML "https://jpetstore.aspectran.com/account/signonForm?created=true"  	[MsgId: MMSG-26659]
+Action.c(213): Redirecting "https://unpkg.com/htmx.org@2.0.4" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(213): To location "https://unpkg.com/htmx.org@2.0.4/dist/htmx.min.js"  	[MsgId: MMSG-26693]
+Action.c(213): Registered web_reg_find successful for "Text=Your account has been created. Please try login." (count=1)  	[MsgId: MMSG-26364]
+Action.c(213): Notify: Saving Parameter "saveAccInfo_Count = 1".
+Action.c(213): web_custom_request("FollowRedirect") was successful, 120929 body bytes, 8499 header bytes  	[MsgId: MMSG-26386]
+Action.c(221): Notify: Parameter Substitution: parameter "saveAccInfo_Count" =  "1"
+Action.c(222): Account creation confirmation found.
+Action.c(230): web_custom_request("speculation_3") started  	[MsgId: MMSG-26355]
+Action.c(230): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(230): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(230): web_custom_request("speculation_3") was successful, 128 body bytes, 606 header bytes  	[MsgId: MMSG-26386]
+Action.c(240): Notify: Transaction "TR3_JPetStore_SaveAccountInformation" ended with a "Pass" status (Duration: 0.9354 Wasted Time: 0.0637).
+Action.c(245): Rendezvous Login_Rendezvous
+Action.c(247): Notify: Transaction "TR4_JPetStore_Login" started.
+Action.c(251): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(251): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(251): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(254): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(254): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(257): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(257): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(260): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(260): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(263): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(263): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(266): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(266): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(269): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(269): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(272): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(272): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(275): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(275): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(277): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(277): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(278): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(278): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(280): web_custom_request("signon") started  	[MsgId: MMSG-26355]
+Action.c(280): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(280): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(280): Notify: Parameter Substitution: parameter "P_UsrName" =  "testuserpt"
+Action.c(280): Notify: Parameter Substitution: parameter "P_Password" =  "testuserpt123"
+Action.c(280): Redirecting "https://jpetstore.aspectran.com/account/signon" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(280): To location "https://jpetstore.aspectran.com/"  	[MsgId: MMSG-26693]
+Action.c(280): Registered web_reg_find successful for "Text=Welcome" (count=3)  	[MsgId: MMSG-26364]
+Action.c(280): web_custom_request("signon") was successful, 5352 body bytes, 1148 header bytes  	[MsgId: MMSG-26386]
+Action.c(291): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(291): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(293): web_custom_request("speculation_4") started  	[MsgId: MMSG-26355]
+Action.c(293): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(293): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(293): Registering web_custom_request("speculation_4") was successful  	[MsgId: MMSG-26390]
+Action.c(302): web_custom_request("banner_dogs.gif") started  	[MsgId: MMSG-26355]
+Action.c(302): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(302): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(302): Registering web_custom_request("banner_dogs.gif") was successful  	[MsgId: MMSG-26390]
+Action.c(311): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(311): web_concurrent_end was successful  	[MsgId: MMSG-26392]
+Action.c(314): Notify: Transaction "TR4_JPetStore_Login" ended with a "Pass" status (Duration: 0.7171 Wasted Time: 0.0261).
+Action.c(318): Notify: Transaction "TR5_JPetStore_Logout" started.
+Action.c(321): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(321): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(324): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(324): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(327): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(327): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(330): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(330): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(333): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(333): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(336): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(336): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(339): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(339): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(342): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(342): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(345): web_custom_request("signoff") started  	[MsgId: MMSG-26355]
+Action.c(345): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(345): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(345): Redirecting "https://jpetstore.aspectran.com/account/signoff" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(345): To location "https://jpetstore.aspectran.com/"  	[MsgId: MMSG-26693]
+Action.c(345): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.c(345): web_custom_request("signoff") highest severity level was "warning", 5712 body bytes, 1414 header bytes  	[MsgId: MMSG-26388]
+Action.c(355): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(355): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(355): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(358): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(358): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(360): web_custom_request("speculation_5") started  	[MsgId: MMSG-26355]
+Action.c(360): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(360): Notify: Parameter Substitution: parameter "P_HostName" =  "jpetstore.aspectran.com"
+Action.c(360): Registering web_custom_request("speculation_5") was successful  	[MsgId: MMSG-26390]
+Action.c(370): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(370): web_concurrent_end was successful  	[MsgId: MMSG-26392]
+Action.c(372): Notify: Transaction "TR5_JPetStore_Logout" ended with a "Pass" status (Duration: 0.5928 Wasted Time: 0.0180).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

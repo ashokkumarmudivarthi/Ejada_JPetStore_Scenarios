@@ -1,0 +1,14 @@
+POST https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle HTTP/1.1
+Authorization: Bearer ya29.a0AS3H6NzGQshiwvWxcUMIkBMUr7Iv_nFBQGbeNZdjZMcS5Xzi68Ww_mQOfw3CPpSWtt5RIMTxKsoHVUHajVjM-t327hwIwhtnsq-7Z3ah_4sGDrMp1BfF0EfZaiz7XZCi1fVwBmVl5qkrF2IU3TdgmNHDVbyTNOyRJ7W7G7XVXBtVrwIURrnZc7NDsTcfMts52VlsIBkZEalBVSZo80AmTeVWhiL1UR9yM1Cu8nSczfPxkXaAMfIg52pGrW4xDz8kNl4t4uNtUUesFWAaCgYKARcSARESFQHGX2MiGPCEr6tdYBz6spF5szORMg0278
+x-goog-ext-174067345-bin: CgIIAg==
+Content-Type: application/x-protobuf
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Host: passwordsleakcheck-pa.googleapis.com
+Content-Length: 45
+Connection: Keep-Alive
+

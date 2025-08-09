@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 30336
+Server: nginx
+Content-Type: application/javascript; charset=utf-8
+Last-Modified: Fri, 18 Oct 1991 12:00:00 GMT
+ETag: W/"28feccc0-155ed"
+Cache-Control: public, max-age=31536000, stale-while-revalidate=604800
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Sat, 09 Aug 2025 13:04:08 GMT
+Age: 4596399
+X-Served-By: cache-lga21978-LGA, cache-maa10224-MAA
+X-Cache: HIT, HIT
+X-Cache-Hits: 448389, 1046562
+X-Timer: S1754744648.318352,VS0,VE0
+Vary: Accept-Encoding
+

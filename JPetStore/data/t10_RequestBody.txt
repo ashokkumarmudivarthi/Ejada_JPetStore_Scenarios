@@ -1,0 +1,4 @@
+"{\"entries\":[{\"http_response_code\":200,\"network_changed\":false,\"protocol\":\"HTTPS\",\"r"
+"equest_age_ms\":77834,\"request_elapsed_ms\":5696,\"sample_rate\":0.05,\"server_ip\":\"192.168"
+".56.1:8888\",\"status\":\"ok\",\"url\":\"https://fonts.googleapis.com/\",\"was_proxied\":true}"
+"],\"reporter\":\"chrome\"}"

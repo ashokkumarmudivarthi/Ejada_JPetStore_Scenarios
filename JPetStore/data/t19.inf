@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19.html
+URL1=https://beacons.gcp.gvt2.com/domainreliability/upload
+Total=1
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=t19_RequestBody.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_19.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

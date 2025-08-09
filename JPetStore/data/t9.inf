@@ -1,0 +1,13 @@
+[t9]
+FileName1=t9.txt
+URL1=https://clientservices.googleapis.com/uma/v2
+Total=2
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=t9_RequestBody.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_aspectran-logo-grey-x100.png
+URL2=https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets/app/webroot/assets/img/aspectran-logo-grey-x100.png
+[ProtocolInfo]
+ProtocolId=QTWeb

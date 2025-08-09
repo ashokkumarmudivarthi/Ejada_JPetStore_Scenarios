@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Aug 2025 13:04:34 GMT
+Content-Type: application/speculationrules+json
+Connection: keep-alive
+Access-Control-Allow-Origin: https://jpetstore.aspectran.com
+Vary: Origin, accept-encoding
+Speculation-Rules: "/cdn-cgi/speculation"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=g%2B4b6qNbHoJqfcJTo1BG12A%2FkuBr8u2%2FHVRwFuhglDzFnhoiXwIxQkcmoYQAkX5MeSK1jaoE9PcHlEmeMMaB2De%2BT3JA40Dxm5mzR5tFiR6YJOtVFvUm"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 96c775cabefb7e81-MAA
+

@@ -1,0 +1,6 @@
+[t12]
+FileName1=t12_register3.txt
+URL1=https://android.clients.google.com/c2dm/register3
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_12.xml

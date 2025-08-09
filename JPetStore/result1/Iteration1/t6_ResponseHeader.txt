@@ -1,0 +1,15 @@
+HTTP/2.0 200
+Status: 200
+date: Sat, 09 Aug 2025 15:03:02 GMT
+content-type: text/html;charset=UTF-8
+server: cloudflare
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HVILtSQ0dul%2Fe%2BASaNMXUy8mtgHbf1P7WhGeF2HXCBAEemby1fyckD3W4nRfJY6TFnlaQ6inKT9yKyBuT0SnASlfE3slJxcMc0ZJh67wxSkVX7Vuv3nu"}]}
+vary: accept-encoding
+cf-cache-status: DYNAMIC
+speculation-rules: "/cdn-cgi/speculation"
+content-encoding: zstd
+set-cookie: JSESSIONID=1ksz6s0y6q9l21u7a9n8t37hi330284.jn0; Path=/; Domain=aspectran.com
+cf-ray: 96c8234c8af97ea0-MAA
+alt-svc: h3=":443"; ma=86400
+

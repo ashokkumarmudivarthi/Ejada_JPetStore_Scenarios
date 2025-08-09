@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Aug 2025 13:07:47 GMT
+Content-Type: image/gif
+Content-Length: 6161
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Last-Modified: Mon, 11 Nov 2024 07:24:07 GMT
+Accept-Ranges: bytes
+Cache-Control: max-age=14400
+Cf-Cache-Status: MISS
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IbYZgsFtZ7ULbSACSS7fmOpPPVxdlr5J3MS%2F3258uNlLVPd6t0pgySOlArmnYLhgr79HwCag473EKZsGdg8lhtWGdBDMDSHyMIx8MhrphRZkpbTxS1kV"}]}
+CF-RAY: 96c77a7c2ad1b72a-MAA
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,54 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: {P_HostName}",
+                "infFile": "t1.inf",
+                "time": 1754751778916
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: newAccountForm",
+                "infFile": "t2.inf",
+                "time": 1754751779267
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: newAccount",
+                "infFile": "t3.inf",
+                "time": 1754751779561
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: FollowRedirect",
+                "infFile": "t4.inf",
+                "time": 1754751780260
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "TR1_JPetStore_Launch",
+                "rawStartTime": 1754751777974,
+                "rawEndTime": 1754751779063,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1450202465057373
+            },
+            {
+                "transactionName": "TR2_JPetStore_ClickSignUp",
+                "rawStartTime": 1754751779063,
+                "rawEndTime": 1754751779295,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012120246887207032
+            },
+            {
+                "transactionName": "TR3_JPetStore_SaveAccountInformation",
+                "rawStartTime": 1754751779296,
+                "rawEndTime": 1754751780292,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06381535530090332
+            }
+        ]
+    }
+]

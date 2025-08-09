@@ -1,0 +1,11 @@
+[t44]
+FileName1=t44_signonForm.htm
+URL1=https://jpetstore.aspectran.com/account/signonForm?created=true
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_44.xml
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

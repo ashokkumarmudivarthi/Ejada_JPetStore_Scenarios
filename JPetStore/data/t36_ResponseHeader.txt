@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 09 Aug 2025 13:04:35 GMT
+X-Cup-Server-Proof: 3045022100f7b3a05d914fe6ea11c8e7a598519b7ab668858faee2f926c0460a8bc9bd3eb602203c9ac6edcb06cb3d8173150839c4c52b2b4013ebd4c2d6d3c7e4a0234ed97e8d:a2ff246f70a35873fdb91c31b5f0cd9c59025bb64d36b631acda50cb0b62f0ac
+ETag: W/"3045022100f7b3a05d914fe6ea11c8e7a598519b7ab668858faee2f926c0460a8bc9bd3eb602203c9ac6edcb06cb3d8173150839c4c52b2b4013ebd4c2d6d3c7e4a0234ed97e8d:a2ff246f70a35873fdb91c31b5f0cd9c59025bb64d36b631acda50cb0b62f0ac"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 6795
+X-Daystart: 21875
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

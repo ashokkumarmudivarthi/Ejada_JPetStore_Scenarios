@@ -1,0 +1,4 @@
+"username=testuserpt&password=testuserpt123&repeatedPassword=testuserpt123&firstName=test2&last"
+"Name=tester1&email=test1tester%40gmail.com&phone=1234567890&address1=2-250&address2=nellore&ci"
+"ty=Chennai&state=Tamil+Nadu&zip=524137&country=India&languagePreference=english&favouriteCateg"
+"oryId=DOGS&listOption=true&bannerOption=true"

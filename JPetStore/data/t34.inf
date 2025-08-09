@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34_speculation.html
+URL1=https://jpetstore.aspectran.com/cdn-cgi/speculation
+Total=1
+ContentType=application/speculationrules+json
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

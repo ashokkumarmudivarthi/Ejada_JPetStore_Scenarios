@@ -1,0 +1,11 @@
+[t58]
+FileName1=t58.html
+URL1=https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=LnBpVilZb4hpsXKy%2BjnU%2Bw%3D%3D
+Total=1
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=t58_RequestBody.txt
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=application/vnd.google.octet-stream-compressible
+SnapshotXmlFile=snapshot_58.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

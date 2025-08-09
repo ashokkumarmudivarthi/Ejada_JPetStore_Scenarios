@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: signon",
+                "infFile": "t5.inf",
+                "time": 1754751781152
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: signoff",
+                "infFile": "t6.inf",
+                "time": 1754751782160
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "TR4_JPetStore_Login",
+                "rawStartTime": 1754751780326,
+                "rawEndTime": 1754751781264,
+                "thinkTime": 0.0,
+                "wastedTime": 0.034371376037597659
+            },
+            {
+                "transactionName": "TR5_JPetStore_Logout",
+                "rawStartTime": 1754751781296,
+                "rawEndTime": 1754751782252,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020344972610473634
+            }
+        ]
+    }
+]

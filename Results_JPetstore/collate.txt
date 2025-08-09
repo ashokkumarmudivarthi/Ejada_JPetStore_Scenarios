@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\HP\OneDrive\Desktop\PT_Practice\LoadRunner\JPetStore.lrs
+Completed=0

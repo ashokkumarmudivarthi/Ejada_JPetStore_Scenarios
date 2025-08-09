@@ -1,0 +1,22 @@
+POST https://jpetstore.aspectran.com/account/newAccount HTTP/1.1
+Cache-Control: max-age=0
+sec-ch-ua: "Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://jpetstore.aspectran.com
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://jpetstore.aspectran.com/account/newAccountForm
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: JSESSIONID=1bd0c1xq4d3mt12tada6xosqnm30237.jn0
+Host: jpetstore.aspectran.com
+Content-Length: 325
+Connection: Keep-Alive
+

@@ -1,0 +1,11 @@
+[t23]
+FileName1=t23.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=15:_pGI1qGSj2-nXdDnBFLquFnXxgqWZuPiScs3ciM-4KA&cup2hreq=d14ecb06a73e509233d1f1f911245771fad0f7a854f1693f9386adb7a036bef6
+Total=1
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=t23_RequestBody.txt
+ResponseHeaderFile=t23_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_23.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

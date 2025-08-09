@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=15:FntDM5kJyBvLypLbhHrAGcvqPEBKnjzZY2qRvev0xEc&cup2hreq=3ed5f1a6ae83f5ba2949300e28928c4482a8d158a63cccbabb479c4c66ed3d14
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_pets.png
+URL2=https://petclinic.aspectran.com/images/pets.png
+[ProtocolInfo]
+ProtocolId=QTWeb

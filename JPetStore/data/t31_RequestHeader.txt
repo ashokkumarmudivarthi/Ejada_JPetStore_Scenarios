@@ -1,0 +1,21 @@
+GET https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2 HTTP/1.1
+Origin: https://jpetstore.aspectran.com
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+sec-ch-ua: "Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"
+sec-ch-ua-mobile: ?0
+Accept: */*
+X-Browser-Channel: stable
+X-Browser-Year: 2025
+X-Browser-Validation: XPdmRdCCj2OkELQ2uovjJFk6aKA=
+X-Browser-Copyright: Copyright 2025 Google LLC. All rights reserved.
+X-Client-Data: CIi2yQEIo7bJAQipncoBCKOIywEIkqHLAQiko8sBCIWgzQEY4eLOAQ==
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://fonts.googleapis.com/
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Host: fonts.gstatic.com
+Connection: Keep-Alive
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\HP\OneDrive\Desktop\PT_Practice\LoadRunner\JPetStore
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\hp\onedrive\desktop\pt_practice\loadrunner\jpetstore\\logfile.log
+c:\users\hp\onedrive\desktop\pt_practice\loadrunner\jpetstore\\combined_JPetStore.c
+c:\users\hp\onedrive\desktop\pt_practice\loadrunner\jpetstore\\pre_cci.c
